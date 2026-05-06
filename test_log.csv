@@ -1,0 +1,11 @@
+test_id,feature,result,comment
+TC_001,eCall_trigger,PASS,eCall activated within 3s
+TC_002,UDS_0x22,PASS,ReadDataByIdentifier response OK
+TC_003,CAN_signal_speed,FAIL,Value out of range: 280 expected max 250
+TC_004,Android_Auto_connect,PASS,Connected in 4.2s
+TC_005,RES_remote_start,FAIL,No response from VDC within timeout
+TC_006,UDS_0x27,PASS,SecurityAccess seed received
+TC_007,bCall_trigger,PASS,bCall connected to PSAp
+TC_008,Journey_log,FAIL,Log entry missing GPS coordinates
+TC_009,RVI_response,PASS,Vehicle image returned correctly
+TC_010,CAN_signal_rpm,PASS,RPM within expected range
