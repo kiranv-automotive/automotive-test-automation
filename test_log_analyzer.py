@@ -24,6 +24,8 @@ def analyze_results(results):
     print(f"  Pass rate     : {pass_rate:.1f}%")
     print("=" * 45)
 
+    
+
     if failed:
         print("\n  FAILED TEST CASES:")
         for r in failed:
